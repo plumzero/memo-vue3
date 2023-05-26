@@ -1,15 +1,13 @@
 
-
-
 ### P1
 
 ```sh
-    Watchpack Error (watcher): Error: ENOSPC: System limit for number of file watchers reached,
+  Watchpack Error (watcher): Error: ENOSPC: System limit for number of file watchers reached,
 ```
 
 在 shell 会话中执行如下命令:
 ```sh
-    sudo sysctl fs.inotify.max_user_watches=524288
+  sudo sysctl fs.inotify.max_user_watches=524288
 ```
 
 ### P2

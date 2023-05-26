@@ -23,13 +23,13 @@
 
 类似下面的代码:
 ```html
-    <el-menu-item
-        v-for="item in items"
-        :index="item.index"
-        :key="item.index"
-    >
-        <div id="text">{{item.title}}</div>
-    </el-menu-item>
+  <el-menu-item
+    v-for="item in items"
+    :index="item.index"
+    :key="item.index"
+  >
+  <div id="text">{{item.title}}</div>
+  </el-menu-item>
 ```
 可能会报如下警告:
 ```sh
